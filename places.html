@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>أماكن ونشاطات</title>
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+
+ <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+ 
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500|Roboto:400,500,700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'><link rel="stylesheet" href="./style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__left">
+      <span> <a href="#" class="logo"> kazderni </a> </span>
+    </div>
+    <div class="header__right">
+  <a href="./about.html">About Us</a>
+  <a href="./index.html">Home</a>       
+
+    </div>
+  </header>
+
+  <h1 style="display: flex; justify-content: center; font-size: x-large; color: rgb(3, 235, 235); padding: 10px; font-family: Cambria ;"> اماكن ونشاطات Places & Activities</h1>
+<!--
+  <section class="app-actions">
+  <div class="app-actions-line">
+    <div class="contact-actions-socials">
+      <span class="sp">تصنيف حسب السعر  :</span>
+    <div class="app-actions-line filter-line">
+      <div class="filter-action-buttons">
+        <button class="filter-btn">
+        <select id="filter-select">
+          <option value="all">الكل </option>
+          <option value="1"> 100$ او اقل</option>
+          <option value="2">100$ / 200$</option>
+          <option value="3">أكثر من $300</option>    
+          </select>
+        </button>
+      </div>
+    </div>    
+  </div>
+</div>
+</section>
+-->
+
+  <div class="app-main-left cards-area">
+
+    <div class="card-wrapper main-card" data-filter="1">
+      <a class="card cardItemjs"  onclick="openModal()">
+        <div class="card-image-wrapper">
+        <img src="./pic/oma1.jpg" alt="Places">
+      </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> الجامع الأموي</div>
+        </div>
+        </a>
+    </div>
+    
+     <div class="card-wrapper main-card" data-filter="1">
+      <a class="card cardItemjs"  onclick="openModal2()">
+        <div class="card-image-wrapper">
+        <img src="./pic/ham.jpg" alt="Places">
+        </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> سوق الحميدية</div>
+        </div>
+       </a>
+      </div>
+      <div class="card-wrapper main-card" data-filter="1">
+        <a class="card cardItemjs"  onclick="openModal3()">
+          <div class="card-image-wrapper">
+          <img src="./pic/cas.jpg" alt="Places">
+          </div>
+          <div class="card-info">
+            <div class="card-text big cardText-js">قلعة دمشق </div>
+          </div>
+         </a>
+        </div>
+
+      <div class="card-wrapper main-card" data-filter="1">
+        <a class="card cardItemjs"  onclick="openModal4()">
+          <div class="card-image-wrapper">
+          <img src="./pic/rokaya1.jpg" alt="Places">
+          </div>
+          <div class="card-info">
+            <div class="card-text big cardText-js"> مقام السيدة رقية </div>
+          </div>
+         </a>
+        </div>
+
+        <div class="card-wrapper main-card" data-filter="1">
+          <a class="card cardItemjs"  onclick="openModal5()">
+            <div class="card-image-wrapper">
+            <img src="./pic/khan1.jpg" alt="Places">
+            </div>
+            <div class="card-info">
+              <div class="card-text big cardText-js"> خان أسعد باشا </div>
+            </div>
+           </a>
+          </div>
+      
+          <div class="card-wrapper main-card" data-filter="1">
+            <a class="card cardItemjs"  onclick="openModal6()">
+              <div class="card-image-wrapper">
+              <img src="./pic/kaser.jpg" alt="Places">
+              </div>
+              <div class="card-info">
+                <div class="card-text big cardText-js"> قصر العظم</div>
+              </div>
+             </a>
+            </div>
+
+            <div class="card-wrapper main-card" data-filter="1">
+              <a class="card cardItemjs"  onclick="openModal7()">
+                <div class="card-image-wrapper">
+                <img src="./pic/40.jpg" alt="Places">
+                </div>
+                <div class="card-info">
+                  <div class="card-text big cardText-js"> جبل قاسيون </div>
+                </div>
+               </a>
+              </div>
+
+              <div class="card-wrapper main-card" data-filter="1">
+                <a class="card cardItemjs"  onclick="openModal8()">
+                  <div class="card-image-wrapper">
+                  <img src="./pic/feja1.jpg" alt="Places">
+                  </div>
+                  <div class="card-info">
+                    <div class="card-text big cardText-js"> نبع الفيجة  </div>
+                  </div>
+                 </a>
+                </div>
+                
+              <div class="card-wrapper main-card" data-filter="1">
+                <a class="card cardItemjs"  onclick="openModal9()">
+                  <div class="card-image-wrapper">
+                  <img src="./pic/ota1.jpg" alt="Places">
+                  </div>
+                  <div class="card-info">
+                    <div class="card-text big cardText-js">  غوطة دمشق  </div>
+                  </div>
+                 </a>
+                </div>
+  </div>  
+
+
+
+
+
+  <div id="modal-window" class="shadow" hidden>
+    <div class="main-modal">
+      <div class="modal-left">
+        <div class="modal-image-wrapper">
+          <img src="./pic/oma2.jpg">
+        </div>
+        <div class="modal-info-header">
+          <div class="left-side">
+            <h1 class="modalHeader-js"></h1>
+            <p> جامع</p>
+          
+          </div>
+      </div>
+      
+       <div class="desc-wrapper">
+          <div class="modal-info-header">
+            <h1>وصف </h1>
+            <p>المسجد الأموي، ويعرف أيضًا باسم الجامع الكبير بدمشق أو (جامع بني أمية الكبير)، يقع في مدينة دمشق القديمة، التي أدرجتها الأمم المتحدة على لائحة التراث العالمي الإنساني.  وهو من أكبر وأقدم المساجد في العالم. الطراز المعماري لهذا المسجد مستعار من الطراز البيزنطي، حيث حافظ على نفس الهيكل العام والميزات المعمارية منذ بنائه الأولي في أوائل القرن الثامن ولم يتغير طابعه الأموي بشكل كبير، ويعده المسلمون رابع أقدس مكان إسلامي في العالم.     </p>
+          <p>يحتل المسجد مساحة مربعة ضخمة تبلغ مساحتها 515 × 330 قدمًا (157 × 100 متر)، ويحتوي على فناء كبير مفتوح، محاط برواق من الأقواس تدعمها أعمدة رفيعة. يمتد الليوان، أو قاعة العبادة، على طول الجانب الجنوبي من المسجد، وينقسم إلى ثلاثة ممرات طويلة بواسطة صفوف من الأعمدة والأقواس.</p>
+          </div> 
+          <div class="desc-actions">
+            <a target="_blank" href="https://maps.app.goo.gl/mLNSpgzD2u1ZCmADA">
+              <button class="btn-book"> الموقع على الخريطة </button>              
+            </a>
+          </div>
+        </div>
+        </div>       
+      <button class="btn btn-close" onclick="closeM()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      </div>    
+    </div>
+
+    <div id="modal2" class="shadow" hidden>
+      <div class="main-modal">
+        <div class="modal-left">
+          <div class="modal-image-wrapper">
+            <img src="./pic/ham2.webp">
+          </div>
+          <div class="modal-info-header">
+            <div class="left-side">
+              <h1 class="modalHeader-js"></h1>
+              <p> سوق شعبي</p>
+      
+            </div>
+        </div>
+        
+         <div class="desc-wrapper">
+            <div class="modal-info-header">
+              <h1>وصف </h1>
+              <p>سوق الحميدية من أشهر أسواق دمشق في سوريا، وأهم وأشهر أسواق الشرق على الإطلاق، وأكثرها جمالًا ورونقًا، وقد وصفه المؤرخون بأنه فسيح رائع البناء، ووصفوه بأنه مدينة تجارية صناعية في قلب دمشق القديمة، ووصفه الباحثون بأنه درة الأسواق وأجملها ، وهو مغطًى بالكامل بسقف من الحديد مليء بالثقوب الصغيرة التي تنفذ منها الشمس أثناء النهار ومبلط بالحجر - البازلت الأسود - ويعد ملتقى الزائرين والسياح من كافة بقاع الدنيا     </p>
+            <p>           أنشىء سوق الحميدية الشهير الذي يبلغ طوله أكثر من خمسمئة متر على مسار الطريق الروماني القديم الذي كان يؤدي إلى معبد جوبيتر
+              
+              ولكن السوق لم يأخذ شكله الحالي إلا في نهاية القرن التاسع عشر خلال الفترة العثمانية وفي عهد السلطان عبد الحميد الثاني حينما تم ترميمه إلى ما هو عليه اليوم. </p>
+            </div> 
+            <div class="desc-actions">
+              <a target="_blank" href="https://maps.app.goo.gl/oQtxaLcgyLyjwd5PA">
+                <button class="btn-book"> الموقع على الخريطة </button>              
+              </a>
+            </div>
+          </div>
+          </div>       
+        <button class="btn btn-close" onclick="closeM2()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        </div>    
+      </div>
+      
+    <div id="modal3" class="shadow" hidden>
+      <div class="main-modal">
+        <div class="modal-left">
+          <div class="modal-image-wrapper">
+            <img src="./pic/cas2.jpg">
+          </div>
+          <div class="modal-info-header">
+            <div class="left-side">
+              <h1 class="modalHeader-js"></h1>
+              <p> آثار</p>
+      
+            </div>
+        </div>
+        
+         <div class="desc-wrapper">
+            <div class="modal-info-header">
+              <h1>وصف </h1>
+<pre>قلعة دمشق هي قلعة محصنة أنشئت في العصور الوسطى ، تعد من أهم معالم فن العمارة العسكرية والإسلامية في سورية في العصر الأيوبي، وقد أدرجت في قائمة اليونسكو لمواقع التراث العالمي عام 1979 ميلادي. تقع قلعة دمشق في الركن الشمالي الغربي من أسوار مدينة دمشق عاصمة سوريا، بين باب الفراديس وباب الجابية. وهي جزء من مدينة دمشق القديمة، ويحيط بها خندق عرضه حوالي 20 متراً. 
+مساحة القلعة اليوم حوالي 33176 م2، وكان لها أربعة أبواب وحاليا ثلاثة , شكلها مستطيل غير منتظم بأضلاع ليست مستقيمة. عدد أبراجها 12 برجا كان فيها عدد من القصور والمنازل والحوانيت ومسجد أبي الدرداء ودار رضوان والطارمة ودار المسرة ومخازن وطاحون للحبوب وقد سكن القلعة في عصور مختلفة السلاطين والملوك والأمراء والولاة إضافة للفقهاء والعلماء والوزراء.وتعتبر القلعة الوحيدة في العالم التي لم تشيد على مرتفع بل بنيت على مستوى سطح الأرض.
+ 
+قلعة دمشق قلعة قديمة مرت بمراحل حضارية كثيرة عبر تاريخها الطويل، في العصر السلجوقي قام الأمير السلجوقي اتسز بن أوق عام 1076 م بتكملة بناء أجزاء ومباني وإضافة أبراج للقلعة، وبعد أن سيطر الأيوبيون على دمشق قام حاكمها الملك العادل أبي بكر محمد بن أيوب شقيق السلطان صلاح الدين الأيوبي بتوسيعها وتمنيعها وزيادة أبراجها. 
+ 
+وقد حفل تاريخ قلعة دمشق بأحداث كثيرة سطرت عبر العصور التي مرت على المدينة العريقة عبر تاريخ طويل حافل بالبطولات لعبت فيه دمشق الدور الرئيسي وكانت المركز الذي انطلق منه الفاتحين شرقاً وغرباً وخطط القادة والحكام والعلماء والفقهاء والحكماء في قلعتها قلعة دمشق في إرساء كيان دول وإمبراطوريات عبر التاريخ.
+ 
+في العصر المملوكي 1260 م - 1516 م وعرف منصب نائب القلعة في دمشق من قبل السلطنة وكان السلاطين المماليك يقيمون فيها أحياناً عند قدومهم إلى دمشق. 
+أما في العصر العثماني صارت القلعة مقرًا للإنكشارية والدالية ويترأسها أغا القلعة وكانت في فترات مختلفة مقراً للوالي أو الحاكم في دمشق وسكن للكثير من الوزراء والموظفين وعلماء الدين والفقهاء. 
+ 
+من المشاهير الذين سكنوا في القلعة الملك نور الدين زنكي والناصر صلاح الدين الأيوبي والظاهر بيبرس وغيرهم من السلاطين والملوك والمشاهير.
+ 
+تحيط الأسواق بالقلعة التاريخية ومنها أشهر أسواق الشرق (سوق الحميدية) الشهير.
+</pre>            
+            
+            </div> 
+            <div class="desc-actions">
+              <a target="_blank" href="https://maps.app.goo.gl/5vT1pLZzZsAj2BK29">
+                <button class="btn-book"> الموقع على الخريطة </button>              
+              </a>
+            </div>
+          </div>
+          </div>       
+        <button class="btn btn-close" onclick="closeM3()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        </div>    
+      </div>
+
+      <div id="modal4" class="shadow" hidden>
+        <div class="main-modal">
+          <div class="modal-left">
+            <div class="modal-image-wrapper">
+              <img src="./pic/rokaya2.jpg">
+            </div>
+            <div class="modal-info-header">
+              <div class="left-side">
+                <h1 class="modalHeader-js"></h1>
+                <p> آثار</p>
+        
+              </div>
+          </div>
+          
+           <div class="desc-wrapper">
+              <div class="modal-info-header">
+                <h1>وصف </h1>
+  <pre>إن هذا المسجد ذو الطراز الشرقي الحديث تم ترميمه بشكل كامل في العام 1990 حيث جرى توسعة المسجد الأصلي الذي يحتوي على ضريح إحدى الشخصيات المبجلة في الإسلام.
+    السيدة رقية هي ابنة الحسين بن علي حفيد الرسول محمد عليه السلام وقد توفيت في دمشق في العام 681.  </pre>            
+              
+              </div> 
+              <div class="desc-actions">
+                <a target="_blank" href="https://maps.app.goo.gl/o3wq71TzALGbJ8Yq8">
+                  <button class="btn-book"> الموقع على الخريطة </button>              
+                </a>
+              </div>
+            </div>
+            </div>       
+          <button class="btn btn-close" onclick="closeM4()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          </div>    
+        </div>
+
+        <div id="modal5" class="shadow" hidden>
+          <div class="main-modal">
+            <div class="modal-left">
+              <div class="modal-image-wrapper">
+                <img src="./pic/khan2.jpg">
+              </div>
+              <div class="modal-info-header">
+                <div class="left-side">
+                  <h1 class="modalHeader-js"></h1>
+                  <p> آثار</p>          
+                </div>
+            </div>
+            
+             <div class="desc-wrapper">
+                <div class="modal-info-header">
+                  <h1>وصف </h1>
+    <pre>خان أسعد باشا هو من أفخم وأكبر خانات دمشق وقد بني في عهد والي دمشق العثماني أسعد باشا العظم في منتصف القرن الثامن عشر.
+للخان فسحة كبيرة تتوسطها بركة ماء ضخمة، ومن حولها تتمركز المخازن والمتاجر على المستوى الأرضي وغرف النوم على مستوى الطابق الأعلى</pre>            
+                
+                </div> 
+                <div class="desc-actions">
+                  <a target="_blank" href="https://maps.app.goo.gl/fZqdpoe2uP72V1Fd8">
+                    <button class="btn-book"> الموقع على الخريطة </button>              
+                  </a>
+                </div>
+              </div>
+              </div>       
+            <button class="btn btn-close" onclick="closeM5()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            </div>    
+          </div>
+
+
+          <div id="modal6" class="shadow" hidden>
+            <div class="main-modal">
+              <div class="modal-left">
+                <div class="modal-image-wrapper">
+                  <img src="./pic/kaser2.jpg">
+                </div>
+                <div class="modal-info-header">
+                  <div class="left-side">
+                    <h1 class="modalHeader-js"></h1>
+                    <p> آثار</p>          
+                  </div>
+              </div>
+              
+               <div class="desc-wrapper">
+                  <div class="modal-info-header">
+                    <h1>وصف </h1>
+      <pre>     يقدم قصر العظم مثال رائعاً عن البيوت الدمشقية العريقة.
+        
+        تم بناء هذا القصر في منتصف القرن الثامن عشر ميلادي ليكون منزل والي دمشق العثماني أسعد باشا العظم.
+        
+        وقد بقي بملكية عائلة العظم حتى عشرينيات القرن الماضي حينما تم استحواذه من قبل السلطات الفرنسية التي حولته إلى معهد الدراسات الشرقية.
+        
+        أما اليوم فقد تم تحويل القصر إلى متحف للتقاليد الشعبية.</pre>            
+                  
+                  </div> 
+                  <div class="desc-actions">
+                    <a target="_blank" href="https://maps.app.goo.gl/vtDDgRAc39LQYddu7">
+                      <button class="btn-book"> الموقع على الخريطة </button>              
+                    </a>
+                  </div>
+                </div>
+                </div>       
+              <button class="btn btn-close" onclick="closeM6()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
+              </div>    
+            </div>
+
+
+            <div id="modal7" class="shadow" hidden>
+              <div class="main-modal">
+                <div class="modal-left">
+                  <div class="modal-image-wrapper">
+                    <img src="./pic/402.jpg">
+                  </div>
+                  <div class="modal-info-header">
+                    <div class="left-side">
+                      <h1 class="modalHeader-js"></h1>
+                      <p> آثار</p>          
+                    </div>
+                </div>
+                
+                 <div class="desc-wrapper">
+                    <div class="modal-info-header">
+                      <h1>وصف </h1>
+        <pre> مغارة الدم مقام الأربعين هي مغارة في جبل قاسيون، يعود عمرها لأكثر من 4000 سنة، كانت معبداً وثنياً للآراميين ثم كنسية في عهد الروم، وفي العهد الإسلامي أنشئ في المغارة مسجد صغير فأصبحت تدعى بمقام الأربعين للمغارة اسمين، أولهما "مغارة الدم ويرجع أصل التسمية لوجود لون أحمر على إحدى صخور المغارة، ويقال إنها آثار دم هابيل عندما قتله أخاه قابيل.
+
+          والبعض يسمونها "مقام الأربعين" ويُقال أن يحيى بن زكريا أقام هو وأمه فيها أربعين عاماً، وأن الحواريين الذين أتوها مع النبي عيسى بن مريم كانوا أربعين.
+ وقيل أيضاً أن أربعين نبياً لجؤوا إلى مغارة الدم هرباً من ظلم أحد الملوك وما أن داهمهم الخطر في المغارة حتى شق الله الجبل ويسر لهم طريق الخروج فخرجوا تاركين من خلفهم روائح المسك والعنبر التي بقيت في الصخر.</pre>            
+                    
+                    </div> 
+                    <div class="desc-actions">
+                      <a target="_blank" href="https://maps.app.goo.gl/AMHR3nyGu3Ny81F5A">
+                        <button class="btn-book"> الموقع على الخريطة </button>              
+                      </a>
+                    </div>
+                  </div>
+                  </div>       
+                <button class="btn btn-close" onclick="closeM7()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+                </div>    
+              </div>
+
+              
+            <div id="modal8" class="shadow" hidden>
+              <div class="main-modal">
+                <div class="modal-left">
+                  <div class="modal-image-wrapper">
+                    <img src="./pic/feja2.jpg">
+                  </div>
+                  <div class="modal-info-header">
+                    <div class="left-side">
+                      <h1 class="modalHeader-js"></h1>
+                      <p> نبع</p>          
+                    </div>
+                </div>
+                
+                 <div class="desc-wrapper">
+                    <div class="modal-info-header">
+                      <h1>وصف </h1>
+        <pre>        ينبع نبع الفيجة من الجبال الغربية الملاصقة لمدينة دمشق، حيث يعد مصدر الأساسي لموارد المدينة المائية
+          
+          تبلغ غزارة النبع 25 متر مربع في الثانية في أوقات الربيع، ويعد ماءه من أعذبها على الإطلاق.
+          
+          يوجد معبد روماني حول نبع الفيجة، كما أن هنالك آثار لنفق غير مكتمل يعود تاريخه للقرن الثالث ميلادي كان قد بدأ بتشييده لنقل المياه إلى مدينة تدمر التاريخية والتي تقع على بعد 200 كم شمال شرقي مدينة دمشق.</pre>            
+                    
+                    </div> 
+                    <div class="desc-actions">
+                      <a target="_blank" href="https://maps.app.goo.gl/7pbV6eQXFdVQ7bx46">
+                        <button class="btn-book"> الموقع على الخريطة </button>              
+                      </a>
+                    </div>
+                  </div>
+                  </div>       
+                <button class="btn btn-close" onclick="closeM8()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+                </div>    
+              </div>
+
+              <div id="modal9" class="shadow" hidden>
+                <div class="main-modal">
+                  <div class="modal-left">
+                    <div class="modal-image-wrapper">
+                      <img src="./pic/ota2.jpg">
+                    </div>
+                    <div class="modal-info-header">
+                      <div class="left-side">
+                        <h1 class="modalHeader-js"></h1>
+                        <p> بستان</p>          
+                      </div>
+                  </div>
+                  
+                   <div class="desc-wrapper">
+                      <div class="modal-info-header">
+                        <h1>وصف </h1>
+          <pre>الغوطة بجناتها وبساتينها وهوائها العليل اجتذبت الكثير من عشاق الطبيعة وأقيمت داخل بساتين الغوطة مجموعة من الفنادق والمنتزهات ومدن الملاهي ومجمعات المطاعم الكبيرة المتنوعة المنتشرة في مناطق مختلفة من الغوطة حيث بساتين الفاكهة وعذوبة الماء ورقة الهواء وروعة المكان وجمال الطبيعة الساحرة.
+            أرض الغوطة الخصبة تحتضن العديد من الأشجار المثمرة كالمشمش والإجاص والدراق والخوخ والتوت والجوز.
+            
+            والفضل بكون دمشق واحة وملجأ للعديد من الأقوام على مر القرون يعود إلى غوطتها الفيحاء التي تحميها من قسوة الصحراء المحيطة بها.</pre>            
+                      
+                      </div> 
+                      <div class="desc-actions">
+                        <a target="_blank" href="https://maps.app.goo.gl/p667dmezwnjduY6T6">
+                          <button class="btn-book"> الموقع على الخريطة </button>              
+                        </a>
+                      </div>
+                    </div>
+                    </div>       
+                  <button class="btn btn-close" onclick="closeM9()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                  </button>
+                  </div>    
+                </div>
+
+
+<script> 
+let ini= document.querySelector('#modal-window');
+ini.classList.add("hideModal");
+</script>
+ <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script  src="./script.js"></script>
+
+  <script> 
+    var swiper = new Swiper('.blog-slider', {
+          spaceBetween: 30,
+          effect: 'fade',
+          loop: true,
+          autoplay:true,
+          mousewheel: {
+            invert: false,
+          },
+          // autoHeight: true,
+          pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+          }
+        });
+    
+      </script>
+     
+</body>
+</html>

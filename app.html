@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تطبيقات</title>
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+
+ <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+ 
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500|Roboto:400,500,700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'><link rel="stylesheet" href="./style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__left">
+      <span> <a href="#" class="logo"> kazderni </a> </span>
+    </div>
+    <div class="header__right">
+  <a href="./about.html">About Us</a>
+  <a href="./index.html">Home</a>       
+
+    </div>
+  </header>
+
+  <h1 style="display: flex; justify-content: center; font-size: x-large; color: rgb(3, 235, 235); padding: 10px; font-family: Cambria ;"> تطبيقات تقدم خدمات Applications</h1>
+<br>
+
+
+  <div class="app-main-left cards-area">
+
+    <div class="card-wrapper main-card" data-filter="1">
+      <a class="card cardItemjs"  onclick="openModal()">
+        <div class="card-image-wrapper">
+        <img src="./pic/yala1.jpg" alt="app">
+      </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> يلا غو</div>
+          <div class="card-text small">تطبيق تكسي</div>
+          </div>
+        </a>
+    </div>
+    
+     <div class="card-wrapper main-card" data-filter="2">
+      <a class="card cardItemjs"  onclick="openModal1()">
+        <div class="card-image-wrapper">
+        <img src="/pic/zakn1.jpg" alt="app">
+        </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> زاكن</div>
+          <div class="card-text small">تطبيق تكسي</div>       
+        </div>
+       </a>
+      </div>
+      <div class="card-wrapper main-card" data-filter="2">
+        <a class="card cardItemjs"  onclick="openModal2()">
+          <div class="card-image-wrapper">
+          <img src="/pic/bee1.jpg" alt="app">
+          </div>
+          <div class="card-info">
+            <div class="card-text big cardText-js"> بي اوردر</div>
+            <div class="card-text small">طلب و توصيل طعام</div>       
+          </div>
+         </a>
+        </div>
+        <div class="card-wrapper main-card" data-filter="2">
+          <a class="card cardItemjs"  onclick="openModal3()">
+            <div class="card-image-wrapper">
+            <img src="/pic/captin.jpg" alt="app">
+            </div>
+            <div class="card-info">
+              <div class="card-text big cardText-js"> كابتن كار</div>
+              <div class="card-text small">تطبيق تكسي</div>       
+            </div>
+           </a>
+          </div>
+
+            <div class="card-wrapper main-card" data-filter="2">
+              <a class="card cardItemjs"  onclick="openModal6()">
+                <div class="card-image-wrapper">
+                <img src="/pic/movo1.jpg" alt="app">
+                </div>
+                <div class="card-info">
+                  <div class="card-text big cardText-js"> موفو</div>
+                  <div class="card-text small">طلب و توصيل طعام</div>       
+                </div>
+               </a>
+              </div>
+  </div>  
+
+
+
+
+
+  <div id="modal-window" class="shadow" hidden>
+    <div class="main-modal">
+      <div class="modal-left">
+        <div class="modal-image-wrapper">
+          <img src="./pic/yala2.jpg">
+        </div>
+          <div class="desc-wrapper">
+          <div class="modal-info-header">
+            <h1>وصف </h1>
+    <pre>
+      يلا غو! .. تطبيق تستطيع الاعتماد عليه لطلب تكسي بسرعة وضمن جميع الأوقات ليلاً ونهاراً
+
+يقدم يلا غو! .. الخدمة الأفضل لسيارات التكسي الخاصة. حيث يوصل التطبيق الزبون بسفير يلاغو الذي يملك السيارة بناء على القرب الجغرافي
+    </pre>
+          </div> 
+          <div class="desc-actions">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=ae.com.yalla.go.dubai.client&hl=ar&gl=US">
+              <button class="btn-book"> رابط التنزيل للأندرويد   </button>              
+            </a>
+            <a target="_blank" href="https://apps.apple.com/us/app/yallago-book-a-taxi/id1455221348">
+              <button class="btn-book"> رابط التنزيل IOS   </button>              
+            </a>
+          </div>
+        </div>
+        </div>       
+      <button class="btn btn-close" onclick="closeM()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      </div>    
+    </div>
+
+
+    <div id="modal1" class="shadow" hidden>
+      <div class="main-modal">
+        <div class="modal-left">
+          <div class="modal-image-wrapper">
+            <img src="./pic/zakn2.png">
+          </div>
+            <div class="desc-wrapper">
+            <div class="modal-info-header">
+              <h1>وصف </h1>
+      <pre> تطبيق سيارات الأجرة المصمم لتوفير تجربة نقل سهلة في متناول يدك.
+ يمكنك استدعاء سيارة أجرة بنقرة بسيطة، وتجاوز الحاجة إلى مكالمات الإرسال التقليدية. قبل أن تبدأ رحلتك، احصل على السعر المقدر لشفافية كاملة. قم بتخصيص رحلتك وفقًا لتفضيلاتك، 
+ أو الاختيار من بين خيارات السيارات المختلفة أو اختيار رحلة هادئة،
+ كل ذلك مع الاستمتاع بخبرة السائقين المحترفين. توفر لك المنصة الراحة والأمان والأسعار التنافسية في أي مكان وفي أي وقت. استمتع بسهولة التنقل في المناطق الحضرية من خلال التطبيق 
+ حيث أصبح الانتقال من النقطة أ إلى النقطة ب أسهل من أي وقت مضى. </pre>
+            </div> 
+            <div class="desc-actions">
+              <a target="_blank" href="https://zakinn-taxi-app.ar.uptodown.com/android">
+                <button class="btn-book"> رابط التنزيل للأندرويد   </button>              
+              </a>
+              <a target="_blank" href="https://apps.apple.com/sa/app/zakinncab/id6448450785">
+                <button class="btn-book"> رابط التنزيل IOS   </button>              
+              </a>
+            </div>
+          </div>
+          </div>       
+        <button class="btn btn-close" onclick="closeM1()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        </div>    
+      </div>
+
+      <div id="modal2" class="shadow" hidden>
+        <div class="main-modal">
+          <div class="modal-left">
+            <div class="modal-image-wrapper">
+              <img src="./pic/bee2.png">
+            </div>
+              <div class="desc-wrapper">
+              <div class="modal-info-header">
+                <h1>وصف </h1>
+        <pre>
+          استمتع براحة طلب الأطعمة المفضلة لديك معBeeOrder ، تطبيق مصمم لتحسين تجربة تناول الطعام الخاصة بك وأنت مرتاح حيثما كنت.
+           يمكنك الوصول إلى العديد من المطاعم وتحديد موقع عناصر القائمة أو المأكولات التي تتوق إليها بسرعة، وذلك بفضل خيارات الترشيح المتقدمة والبحث الذكي.
+
+          استفد من العروض الحصرية، التي يتم عرضها بشكل بارز في الجزء العلوي من التطبيق، مما يضمن حصولك دائمًا على أفضل قيمة لطلباتك  </pre>
+              </div> 
+              <div class="desc-actions">
+                <a target="_blank" href="https://beeorder.ar.uptodown.com/android">
+                  <button class="btn-book"> رابط التنزيل للأندرويد   </button>              
+                </a>
+                <a target="_blank" href="https://apps.apple.com/de/app/%D8%A8%D9%8A-%D8%AF%D9%8A%D9%84%D9%8A%D9%81%D8%B1%D9%8A/id1667117372?l=en">
+                  <button class="btn-book"> رابط التنزيل IOS   </button>              
+                </a>
+              </div>
+            </div>
+            </div>       
+          <button class="btn btn-close" onclick="closeM2()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          </div>    
+        </div>
+
+        <div id="modal3" class="shadow" hidden>
+          <div class="main-modal">
+            <div class="modal-left">
+              <div class="modal-image-wrapper">
+                <img src="./pic/captin.jpg">
+              </div>
+                <div class="desc-wrapper">
+                <div class="modal-info-header">
+                  <h1>وصف </h1>
+          <pre>يتيح تحميل تطبيق كابتن كار حجز رحلة والتنقل من موقعهم الحالي إلى أي مكان يريدون في دمشق وحلب ومعظم المدن السورية الكبرى ببضع نقرات عبر الموبايل.
+يتيح تحميل تطبيق كابتن كار apk مجموعة متنوعة من خيارات السيارات، بما في ذلك السيارات المكيفة والمريحة لتلبية احتياجات وتفضيلات الركاب المختلفة، 
+حيث أن التطبيق سهل الاستخدام ويوفر للعملاء خيار نقل آمن وموثوق، كما يأخذ كابتن كار خصوصية العملاء على محمل الجد ويضمن أن تكون بياناتهم آمنة ومحمية.     </div> 
+                <div class="desc-actions">
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.elkood.elcaptainusers&hl=ar">
+                    <button class="btn-book"> رابط التنزيل للأندرويد   </button>              
+                  </a>
+                  <a target="_blank" href="https://apps.apple.com/us/app/%D9%83%D8%A7%D8%A8%D8%AA%D9%86-%D9%83%D8%A7%D8%B1/id1670888688">
+                    <button class="btn-book"> رابط التنزيل IOS   </button>              
+                  </a>
+                </div>
+              </div>
+              </div>       
+            <button class="btn btn-close" onclick="closeM3()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            </div>    
+          </div>
+  
+              <div id="modal6" class="shadow" hidden>
+              <div class="main-modal">
+                <div class="modal-left">
+                  <div class="modal-image-wrapper">
+                    <img src="./pic/movo2.jpg">
+                  </div>
+                    <div class="desc-wrapper">
+                    <div class="modal-info-header">
+                      <h1>وصف </h1>
+              <pre>موفو هو تطبيق يمكنك من خلاله الطلب من أشهر المطاعم بشكل سهل وسريع، كما يمكنك الطلب من الصيدليات، متاجر المواد الغذائية و محلات الزهور المتاحة خلال هذا التطبيق.     </div> 
+                    <div class="desc-actions">
+                      <a target="_blank" href="https://apkcombo.com/ar/movo/com.movo.movouser/">
+                        <button class="btn-book"> رابط التنزيل للأندرويد   </button>              
+                      </a>
+                      <a target="_blank" href="https://apps.apple.com/us/app/movo-delivery/id1487602510">
+                        <button class="btn-book"> رابط التنزيل IOS   </button>              
+                      </a>
+                    </div>
+                  </div>
+                  </div>       
+                <button class="btn btn-close" onclick="closeM6()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+                </div>    
+              </div>
+
+
+
+<script> 
+let ini= document.querySelector('#modal-window');
+ini.classList.add("hideModal");
+</script>
+ <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script  src="./script.js"></script>
+
+  <script> 
+    var swiper = new Swiper('.blog-slider', {
+          spaceBetween: 30,
+          effect: 'fade',
+          loop: true,
+          autoplay:true,
+          mousewheel: {
+            invert: false,
+          },
+          // autoHeight: true,
+          pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+          }
+        });
+    
+      </script>
+     
+</body>
+</html>

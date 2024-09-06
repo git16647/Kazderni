@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مراكز تسوق ومولات</title>
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+
+ <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+ 
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500|Roboto:400,500,700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'><link rel="stylesheet" href="./style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__left">
+      <span> <a href="#" class="logo"> kazderni </a> </span>
+    </div>
+    <div class="header__right">
+  <a href="./about.html">About Us</a>
+  <a href="./index.html">Home</a>       
+
+    </div>
+  </header>
+
+  <h1 style="display: flex; justify-content: center; font-size: x-large; color: rgb(3, 235, 235); padding: 10px; font-family: Cambria ;"> مراكز تسوق و مولات Shopping & Mall</h1>
+<br>
+<section class="app-actions">
+    <div class="app-actions-line">
+      <div class="contact-actions-socials">
+        <span class="sp">تصنيف  :</span>
+      <div class="app-actions-line filter-line">
+        <div class="filter-action-buttons">
+          <button class="filter-btn">
+          <select id="filter-select">
+            <option value="all">الكل </option>
+            <option value="1"> مولات</option>
+            <option value="2">أسواق</option>
+            </select>
+          </button>
+        </div>
+      </div>    
+    </div>
+  </div>
+  </section>
+
+  <div class="app-main-left cards-area">
+
+    <div class="card-wrapper main-card" data-filter="2">
+      <a class="card cardItemjs"  onclick="openModal()">
+        <div class="card-image-wrapper">
+        <img src="./pic/abo1 (1).jpg" alt="shop">
+      </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> سوق أبو حبل</div>
+          </div>
+        </a>
+    </div>
+    
+     <div class="card-wrapper main-card" data-filter="2">
+      <a class="card cardItemjs"  onclick="openModal1()">
+        <div class="card-image-wrapper">
+        <img src="/pic/salhia1 (1).jpg" alt="shop">
+        </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> سوق الصالحية</div>
+        </div>
+       </a>
+      </div>
+      <div class="card-wrapper main-card" data-filter="1">
+        <a class="card cardItemjs"  onclick="openModal5()">
+          <div class="card-image-wrapper">
+          <img src="./pic/sham (1).jpg" alt="Hotel">
+          </div>
+          <div class="card-info">
+            <div class="card-text big cardText-js"> مول شام سنتر</div>
+          </div>
+         </a>
+        </div>
+      <div class="card-wrapper main-card" data-filter="2">
+        <a class="card cardItemjs"  onclick="openModal2()">
+          <div class="card-image-wrapper">
+          <img src="./pic/ham.jpg" alt="shop">
+          </div>
+          <div class="card-info">
+            <div class="card-text big cardText-js"> سوق الحميدية</div>
+          </div>
+         </a>
+        </div>
+        <div class="card-wrapper main-card" data-filter="1">
+            <a class="card cardItemjs"  onclick="openModal7()">
+              <div class="card-image-wrapper">
+              <img src="./pic/qas (2).jpg" alt="Hotel">
+              </div>
+              <div class="card-info">
+                <div class="card-text big cardText-js"> قاسيون مول </div>
+              </div>
+             </a>
+            </div>
+        <div class="card-wrapper main-card" data-filter="2">
+            <a class="card cardItemjs"  onclick="openModal3()">
+              <div class="card-image-wrapper">
+              <img src="./pic/hamra (1).jpg" alt="shop">
+              </div>
+              <div class="card-info">
+                <div class="card-text big cardText-js"> شارع الحمراء</div>
+              </div>
+             </a>
+            </div>
+            
+            <div class="card-wrapper main-card" data-filter="1">
+                <a class="card cardItemjs"  onclick="openModal4()">
+                  <div class="card-image-wrapper">
+                  <img src="./pic/masa (1).jpg" alt="shop">
+                  </div>
+                  <div class="card-info">
+                    <div class="card-text big cardText-js"> ماسا بلازا مول </div>
+                  </div>
+                 </a>
+                </div>
+        
+                    <div class="card-wrapper main-card" data-filter="1">
+                        <a class="card cardItemjs"  onclick="openModal6()">
+                          <div class="card-image-wrapper">
+                          <img src="./pic/damas (2).jpg" alt="Hotel">
+                          </div>
+                          <div class="card-info">
+                            <div class="card-text big cardText-js"> دامسكينو مول</div>
+                          </div>
+                         </a>
+                        </div>
+     
+                      
+                  
+
+              
+          
+      
+   
+  </div>  
+
+
+
+
+
+  <div id="modal-window" class="shadow" hidden>
+    <div class="main-modal">
+      <div class="modal-left">
+        <div class="modal-image-wrapper">
+          <img src="./pic/abo (2).jpg">
+        </div>
+        <div class="modal-info-header">
+      </div>
+      
+       <div class="desc-wrapper">
+          <div class="modal-info-header">
+            <h1>وصف </h1>
+  <pre>
+    سوق "أبو حبل" عبارة عن صفين متقابلين يحتوي كل صف محال تجارية وتتفرع من كل صف بعض الحارات التي تحتوي محال تجارية أيضاً،
+    يمتد من مخفر "الميدان" وحتى البوابة، كما يوجد فيه العديد من الأوابد التاريخية والأثرية؛ حيث يضم "الزاوية السعدية" وجامع "التينبية" وجامع "الدقاق"،
+  </pre> </div> 
+          <div class="desc-actions">
+            <a target="_blank" href="https://maps.app.goo.gl/12hvHLqmoEKvNcpk9">
+              <button class="btn-book"> الموقع على الخريطة </button>              
+            </a>
+          </div>
+        </div>
+        </div>       
+      <button class="btn btn-close" onclick="closeM()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      </div>    
+    </div>
+
+    <div id="modal1" class="shadow" hidden>
+        <div class="main-modal">
+          <div class="modal-left">
+            <div class="modal-image-wrapper">
+              <img src="./pic/salhia1 (2).jpg">
+            </div>
+            <div class="modal-info-header">
+          </div>
+            <div class="desc-wrapper">
+              <div class="modal-info-header">
+                <h1>وصف </h1>
+      <pre>  من اقدم الاحياء في دمشق ويعتبر من امبر الاماكن للتسوق 
+        يحوي العديد من محلات الالبسه مما يلفت الشخص للذهاب والتسوق فيه 
+     </pre> </div> 
+              <div class="desc-actions">
+                <a target="_blank" href="https://maps.app.goo.gl/oCMvPqaRivCMyioc9">
+                  <button class="btn-book"> الموقع على الخريطة </button>              
+                </a>
+              </div>
+            </div>
+            </div>       
+          <button class="btn btn-close" onclick="closeM1()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          </div>    
+        </div>
+
+
+    <div id="modal2" class="shadow" hidden>
+        <div class="main-modal">
+          <div class="modal-left">
+            <div class="modal-image-wrapper">
+              <img src="./pic/ham2.webp">
+            </div>
+           
+           <div class="desc-wrapper">
+              <div class="modal-info-header">
+                <h1>وصف </h1>
+                <p>سوق الحميدية من أشهر أسواق دمشق في سوريا، وأهم وأشهر أسواق الشرق على الإطلاق، وأكثرها جمالًا ورونقًا، وقد وصفه المؤرخون بأنه فسيح رائع البناء، ووصفوه بأنه مدينة تجارية صناعية في قلب دمشق القديمة، ووصفه الباحثون بأنه درة الأسواق وأجملها ، وهو مغطًى بالكامل بسقف من الحديد مليء بالثقوب الصغيرة التي تنفذ منها الشمس أثناء النهار ومبلط بالحجر - البازلت الأسود - ويعد ملتقى الزائرين والسياح من كافة بقاع الدنيا     </p>
+              <p>           أنشىء سوق الحميدية الشهير الذي يبلغ طوله أكثر من خمسمئة متر على مسار الطريق الروماني القديم الذي كان يؤدي إلى معبد جوبيتر
+                
+                ولكن السوق لم يأخذ شكله الحالي إلا في نهاية القرن التاسع عشر خلال الفترة العثمانية وفي عهد السلطان عبد الحميد الثاني حينما تم ترميمه إلى ما هو عليه اليوم. </p>
+              </div> 
+              <div class="desc-actions">
+                <a target="_blank" href="https://maps.app.goo.gl/oQtxaLcgyLyjwd5PA">
+                  <button class="btn-book"> الموقع على الخريطة </button>              
+                </a>
+              </div>
+            </div>
+            </div>       
+          <button class="btn btn-close" onclick="closeM2()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          </div>    
+        </div>
+
+        <div id="modal3" class="shadow" hidden>
+            <div class="main-modal">
+              <div class="modal-left">
+                <div class="modal-image-wrapper">
+                  <img src="./pic/hamra (2).jpg">
+                </div>
+                <div class="modal-info-header">
+              </div>
+                <div class="desc-wrapper">
+                  <div class="modal-info-header">
+                    <h1>وصف </h1>
+          <pre> شارع الحمراء أحد الشوارع التجارية الحديثة في مدينة دمشق، 
+ويضم سوقًا تجاريًّا بمجموعة من المحلات الراقية، يصل إلى شارع العابد من جهة الشرق وساحة عرنوس من جهة الغرب، وعلى جانبي الشارع المحلات التجارية والوكالات المتخصصة في الملابس والأزياء النسائية 
+وكذلك محلات لنشاطات مختلفة ودور أزياء،
+         </pre> </div> 
+                  <div class="desc-actions">
+                    <a target="_blank" href="https://maps.app.goo.gl/sCSHtCMXP8nBVscG6">
+                      <button class="btn-book"> الموقع على الخريطة </button>              
+                    </a>
+                  </div>
+                </div>
+                </div>       
+              <button class="btn btn-close" onclick="closeM3()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
+              </div>    
+            </div>
+
+            <div id="modal4" class="shadow" hidden>
+                <div class="main-modal">
+                  <div class="modal-left">
+                    <div class="modal-image-wrapper">
+                      <img src="./pic/masa (2).jpg">
+                    </div>
+                    <div class="modal-info-header">
+                  </div>
+                    <div class="desc-wrapper">
+                      <div class="modal-info-header">
+                        <h1>وصف </h1>
+              <pre>   مول تجاري موجود بمنطقة الميدان يحتوي على مطاعم وكافيهات وطابق للملابس وطابق للمفروشات والالعاب 
+وغيره الكثير
+              </pre> </div> 
+                      <div class="desc-actions">
+                        <a target="_blank" href="https://maps.app.goo.gl/E8r7y3Q9ZYYhppr18">
+                          <button class="btn-book"> الموقع على الخريطة </button>              
+                        </a>
+                      </div>
+                    </div>
+                    </div>       
+                  <button class="btn btn-close" onclick="closeM4()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                  </button>
+                  </div>    
+                </div>
+
+            <div id="modal5" class="shadow" hidden>
+                <div class="main-modal">
+                    <div class="modal-left">
+                    <div class="modal-image-wrapper">
+                        <img src="./pic/sham (2).jpg">
+                    </div>
+                    <div class="modal-info-header">
+                    </div>
+                    <div class="desc-wrapper">
+                        <div class="modal-info-header">
+                        <h1>وصف </h1>
+                <pre> مركز تسوق في كفر سوسة بدمشق ويعد واحدا من أكبر المراكز التجارية في سوريا 
+
+أقسام المركز التجاري:
+سوبر ماركت.
+محال تجارية.
+مقاهي ومطاعم.
+مدينة ألعاب.
+قاعة رياضية ومسبح.
+قاعة بولينغ.
+</pre> </div> 
+                    <div class="desc-actions">
+                    <a target="_blank" href="https://maps.app.goo.gl/c4n5Pf37kpibcYBU9">
+                        <button class="btn-book"> الموقع على الخريطة </button>              
+                    </a>
+                    </div>
+                </div>
+                </div>       
+                <button class="btn btn-close" onclick="closeM5()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+                </div>    
+            </div>
+
+                    <div id="modal6" class="shadow" hidden>
+                        <div class="main-modal">
+                          <div class="modal-left">
+                            <div class="modal-image-wrapper">
+                              <img src="./pic/damas (1).jpg">
+                            </div>
+                            <div class="modal-info-header">
+                          </div>
+                            <div class="desc-wrapper">
+                              <div class="modal-info-header">
+                                <h1>وصف </h1>
+                      <pre> هو مركز تجاري افتتح في مطلع عام 2009، يقع في تنظيم كفرسوسة بدمشق يقع بجوار مركز شام سيتي سنتر
+                     </pre> </div> 
+                              <div class="desc-actions">
+                                <a target="_blank" href="https://maps.app.goo.gl/b3eNDCon4EGMGLFd9">
+                                  <button class="btn-book"> الموقع على الخريطة </button>              
+                                </a>
+                              </div>
+                            </div>
+                            </div>       
+                          <button class="btn btn-close" onclick="closeM6()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                          </button>
+                          </div>    
+                        </div>
+
+                        <div id="modal7" class="shadow" hidden>
+                            <div class="main-modal">
+                              <div class="modal-left">
+                                <div class="modal-image-wrapper">
+                                  <img src="./pic/qas (1).jpg">
+                                </div>
+                                <div class="modal-info-header">
+                              </div>
+                                <div class="desc-wrapper">
+                                  <div class="modal-info-header">
+                                    <h1>وصف </h1>
+                          <pre> نيو قاسيون مول هو عبارة عن مركز تجاري عصري ومتكامل، ويضم الكثير من المرافق التجارية والترفيهية المناسبة لمختلف الأفراد والتي تُلبي الاحتياجات الأساسية والثانوية،
+                             ففيه متاجر الملابس والأحذية والحقائب والإكسسوارات، وذلك إلى جانب المطاعم التي تُقدّم أشهى المأكولات المحلية وتلك السريعة الشهية،
+                              بالإضافة إلى المناطق المخصصة لترفيه الأطفال وغيرها.
+                         </pre> </div> 
+                                  <div class="desc-actions">
+                                    <a target="_blank" href="https://maps.app.goo.gl/LhGDLnyiqtSacFMi6">
+                                      <button class="btn-book"> الموقع على الخريطة </button>              
+                                    </a>
+                                  </div>
+                                </div>
+                                </div>       
+                              <button class="btn btn-close" onclick="closeM7()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                              </button>
+                              </div>    
+                            </div>
+
+                            <div id="modal1" class="shadow" hidden>
+                                <div class="main-modal">
+                                  <div class="modal-left">
+                                    <div class="modal-image-wrapper">
+                                      <img src="./pic/salhia1 (2).jpg">
+                                    </div>
+                                    <div class="modal-info-header">
+                                  </div>
+                                    <div class="desc-wrapper">
+                                      <div class="modal-info-header">
+                                        <h1>وصف </h1>
+                              <pre>  من اقدم الاحياء في دمشق ويعتبر من امبر الاماكن للتسوق 
+                                يحوي العديد من محلات الالبسه مما يلفت الشخص للذهاب والتسوق فيه 
+                             </pre> </div> 
+                                      <div class="desc-actions">
+                                        <a target="_blank" href="https://maps.app.goo.gl/oCMvPqaRivCMyioc9">
+                                          <button class="btn-book"> الموقع على الخريطة </button>              
+                                        </a>
+                                      </div>
+                                    </div>
+                                    </div>       
+                                  <button class="btn btn-close" onclick="closeM1()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                                  </button>
+                                  </div>    
+                                </div>
+
+                                <div id="modal1" class="shadow" hidden>
+                                    <div class="main-modal">
+                                      <div class="modal-left">
+                                        <div class="modal-image-wrapper">
+                                          <img src="./pic/salhia1 (2).jpg">
+                                        </div>
+                                        <div class="modal-info-header">
+                                      </div>
+                                        <div class="desc-wrapper">
+                                          <div class="modal-info-header">
+                                            <h1>وصف </h1>
+                                  <pre>  من اقدم الاحياء في دمشق ويعتبر من امبر الاماكن للتسوق 
+                                    يحوي العديد من محلات الالبسه مما يلفت الشخص للذهاب والتسوق فيه 
+                                 </pre> </div> 
+                                          <div class="desc-actions">
+                                            <a target="_blank" href="https://maps.app.goo.gl/oCMvPqaRivCMyioc9">
+                                              <button class="btn-book"> الموقع على الخريطة </button>              
+                                            </a>
+                                          </div>
+                                        </div>
+                                        </div>       
+                                      <button class="btn btn-close" onclick="closeM1()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                                      </button>
+                                      </div>    
+                                    </div>
+
+                                    <div id="modal1" class="shadow" hidden>
+                                        <div class="main-modal">
+                                          <div class="modal-left">
+                                            <div class="modal-image-wrapper">
+                                              <img src="./pic/salhia1 (2).jpg">
+                                            </div>
+                                            <div class="modal-info-header">
+                                          </div>
+                                            <div class="desc-wrapper">
+                                              <div class="modal-info-header">
+                                                <h1>وصف </h1>
+                                      <pre>  من اقدم الاحياء في دمشق ويعتبر من امبر الاماكن للتسوق 
+                                        يحوي العديد من محلات الالبسه مما يلفت الشخص للذهاب والتسوق فيه 
+                                     </pre> </div> 
+                                              <div class="desc-actions">
+                                                <a target="_blank" href="https://maps.app.goo.gl/oCMvPqaRivCMyioc9">
+                                                  <button class="btn-book"> الموقع على الخريطة </button>              
+                                                </a>
+                                              </div>
+                                            </div>
+                                            </div>       
+                                          <button class="btn btn-close" onclick="closeM1()">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                                          </button>
+                                          </div>    
+                                        </div>
+
+<script> 
+let ini= document.querySelector('#modal-window');
+ini.classList.add("hideModal");
+</script>
+ <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script  src="./script.js"></script>
+
+  <script> 
+    var swiper = new Swiper('.blog-slider', {
+          spaceBetween: 30,
+          effect: 'fade',
+          loop: true,
+          autoplay:true,
+          mousewheel: {
+            invert: false,
+          },
+          // autoHeight: true,
+          pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+          }
+        });
+    
+      </script>
+     
+</body>
+</html>

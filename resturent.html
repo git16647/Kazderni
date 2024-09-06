@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مطاعم</title>
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+
+ <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+ 
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500|Roboto:400,500,700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'><link rel="stylesheet" href="./style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__left">
+      <span> <a href="#" class="logo"> kazderni </a> </span>
+    </div>
+    <div class="header__right">
+  <a href="./about.html">About Us</a>
+  <a href="./index.html">Home</a>       
+
+    </div>
+  </header>
+
+  <h1 style="display: flex; justify-content: center; font-size: x-large; color: rgb(3, 235, 235); padding: 10px; font-family: Cambria ;"> مطاعم Resturent</h1>
+<section class="app-actions">
+  <div class="app-actions-line">
+    <div class="contact-actions-socials">
+      <span class="sp">تصنيف حسب السعر  :</span>
+    <div class="app-actions-line filter-line">
+      <div class="filter-action-buttons">
+        <button class="filter-btn">
+        <select id="filter-select">
+          <option value="all">الكل </option>
+          <option value="1"> 50$ او اقل</option>
+          <option value="2">50$ / 100$</option>
+          <option value="3">أكثر من $100</option>    
+          </select>
+        </button>
+      </div>
+    </div>    
+  </div>
+</div>
+</section>
+
+
+  <div class="app-main-left cards-area">
+
+    <div class="card-wrapper main-card" data-filter="3">
+      <a class="card cardItemjs"  onclick="openModal()">
+        <div class="card-image-wrapper">
+        <img src="./pic/om1.jpg" alt="res">
+      </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> ام شريف</div>
+          <div class="card-text small">مطعم</div>
+          </div>
+        </a>
+    </div>
+    
+     <div class="card-wrapper main-card" data-filter="1">
+      <a class="card cardItemjs"  onclick="openModal1()">
+        <div class="card-image-wrapper">
+        <img src="./pic/kaza1.jpg" alt="res">
+        </div>
+        <div class="card-info">
+          <div class="card-text big cardText-js"> مطعم وكافيه كزا ميزا</div>
+          <div class="card-text small">مطعم وكافيه</div>
+       </div>
+       </a>
+      </div>
+      <div class="card-wrapper main-card" data-filter="2">
+        <a class="card cardItemjs"  onclick="openModal2()">
+          <div class="card-image-wrapper">
+          <img src="./pic/jbl1.jpg" alt="res">
+          </div>
+          <div class="card-info">
+            <div class="card-text big cardText-js"> مطعم حكاية جبل</div>
+            <div class="card-text small">مطعم وتراسات</div>
+         </div>
+         </a>
+        </div>
+
+        <div class="card-wrapper main-card" data-filter="1">
+          <a class="card cardItemjs"  onclick="openModal3()">
+            <div class="card-image-wrapper">
+            <img src="./pic/baf1.jpg" alt="res">
+            </div>
+            <div class="card-info">
+              <div class="card-text big cardText-js"> بافلاي برغر</div>
+              <div class="card-text small">مطعم </div>
+           </div>
+           </a>
+          </div>
+          <div class="card-wrapper main-card" data-filter="2">
+            <a class="card cardItemjs"  onclick="openModal4()">
+              <div class="card-image-wrapper">
+              <img src="./pic/sens1.jpg" alt="res">
+              </div>
+              <div class="card-info">
+                <div class="card-text big cardText-js"> مطعم سينسز</div>
+                <div class="card-text small">مطعم وكافيه</div>
+             </div>
+             </a>
+            </div>
+            <div class="card-wrapper main-card" data-filter="1">
+              <a class="card cardItemjs"  onclick="openModal5()">
+                <div class="card-image-wrapper">
+                <img src="./pic/deunz1 (1).jpg" alt="res">
+                </div>
+                <div class="card-info">
+                  <div class="card-text big cardText-js"> مطعم ديونز</div>
+                  <div class="card-text small">مطعم </div>
+               </div>
+               </a>
+              </div>
+              <div class="card-wrapper main-card" data-filter="1">
+                <a class="card cardItemjs"  onclick="openModal6()">
+                  <div class="card-image-wrapper">
+                  <img src="./pic/nar1 (1).jpg" alt="res">
+                  </div>
+                  <div class="card-info">
+                    <div class="card-text big cardText-js"> مطعم قصر النرجس</div>
+                    <div class="card-text small">مطعم </div>
+                 </div>
+                 </a>
+                </div>
+                <div class="card-wrapper main-card" data-filter="1">
+                  <a class="card cardItemjs"  onclick="openModal7()">
+                    <div class="card-image-wrapper">
+                    <img src="./pic/set1 (1).jpg" alt="res">
+                    </div>
+                    <div class="card-info">
+                      <div class="card-text big cardText-js"> مطعم ست الشام </div>
+                      <div class="card-text small">مطعم </div>
+                   </div>
+                   </a>
+                  </div>
+                  <div class="card-wrapper main-card" data-filter="3">
+                    <a class="card cardItemjs"  onclick="openModal8()">
+                      <div class="card-image-wrapper">
+                      <img src="./pic/soltan1 (1).jpg" alt="res">
+                      </div>
+                      <div class="card-info">
+                        <div class="card-text big cardText-js"> مطعم قصر السلطان  </div>
+                        <div class="card-text small">مطعم </div>
+                     </div>
+                     </a>
+                    </div>
+  </div>  
+
+
+
+
+
+  <div id="modal-window" class="shadow" hidden>
+    <div class="main-modal">
+      <div class="modal-left">
+        <div class="modal-image-wrapper">
+          <img src="./pic/om2.jpg">
+        </div>
+       <div class="desc-wrapper">
+          <div class="modal-info-header">
+            <h1>وصف </h1>
+<pre>
+  يقع مطعم أم شريف في فندق الفورسيزنز في شارع شكري القوتلي في دمشق. و يقدم مأكولات من المطبخ الشرقي على الفطور و الغداء و العشاء بالإضافة إلى المشروبات الخفيفة.
+   المطعم يوفر انترنت لاسلكي مجاني. كما يستضيف المناسبات الاجتماعية كأعياد الميلاد و الحفلات الخاصة.
+</pre>          </div> 
+          <div class="desc-actions">
+            <a target="_blank" href="https://maps.app.goo.gl/urEJTqM5Mv8Y8xxX9">
+              <button class="btn-book"> الموقع على الخريطة </button>              
+            </a>       
+          </div>
+        </div>
+        </div>       
+      <button class="btn btn-close" onclick="closeM()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      </div>    
+    </div>
+
+    <div id="modal1" class="shadow" hidden>
+      <div class="main-modal">
+        <div class="modal-left">
+          <div class="modal-image-wrapper">
+            <img src="./pic/kaza2.jpg">
+          </div>
+         <div class="desc-wrapper">
+            <div class="modal-info-header">
+              <h1>وصف </h1>
+  <pre>يقع كافيه و مطعم كزاميزا في شارع الطلياني في منطقة عرنوس في دمشق، 
+    و يقدم مأكولات من المطبخ الإيطالي و المتنوع على الفطور و الغداء و العشاء. المطعم يفتح يوميا من الساعة التاسعة صباحا و لغاية الواحدة بعد منتصف الليل و يوفر انترنت لاسلكي مجاني و أركيلة. 
+    كما يستضيف المناسبات الاجتماعية كأعياد الميلاد و الحفلات الخاصة.
+  </pre>          </div> 
+            <div class="desc-actions">
+              <a target="_blank" href="https://maps.app.goo.gl/f8jUWzP75RC6LqMZ9">
+                <button class="btn-book"> الموقع على الخريطة </button>              
+              </a>       
+            </div>
+          </div>
+          </div>       
+        <button class="btn btn-close" onclick="closeM1()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        </div>    
+      </div>
+
+      <div id="modal2" class="shadow" hidden>
+        <div class="main-modal">
+          <div class="modal-left">
+            <div class="modal-image-wrapper">
+              <img src="./pic/jbl2.jpg">
+            </div>
+           <div class="desc-wrapper">
+              <div class="modal-info-header">
+                <h1>وصف </h1>
+    <pre>أجمل اطلالة من قاسيون بمطعم و تراسات حكاية جبل
+      يشتهر بالمأكولات الشرقية والاطلالة الجميلة 
+      دمشق - مساكن برزة - طلعة قاسيون مول - حرم المعهد العالي لإدارة الاعمال (HIBA)
+    </pre>          </div> 
+              <div class="desc-actions">
+                <a target="_blank" href="https://maps.app.goo.gl/SahKqT9C7YxjMHqW8">
+                  <button class="btn-book"> الموقع على الخريطة </button>              
+                </a>       
+              </div>
+            </div>
+            </div>       
+          <button class="btn btn-close" onclick="closeM2()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          </div>    
+        </div>
+
+        <div id="modal3" class="shadow" hidden>
+          <div class="main-modal">
+            <div class="modal-left">
+              <div class="modal-image-wrapper">
+                <img src="./pic/baf2.jpg">
+              </div>
+             <div class="desc-wrapper">
+                <div class="modal-info-header">
+                  <h1>وصف </h1>
+      <pre> يقدم العديد من اصناف البرغر الشهية  بالاضافة للمقبلات المتنوعة 
+        له العديد من الافرع 
+شعلان ، حبوبي رابع
+0998585882
+مزة ، شارع الجلاء ضمن مجمع السندباد ، UpTown
+ 0930373708
+كفرسوسة ، دامسكينو مول ، B2
+ 0930373713
+ميدان ، بيغ 5 ، ط2 
+0930373705
+حلب ، الشهباء الجديدة ، بوليفارد الشهباء
+0942049863  
+  </pre>          </div> 
+                <div class="desc-actions">
+                  <a target="_blank" href="https://maps.app.goo.gl/55qQMUXysSWWAiRcA">
+                    <button class="btn-book"> الموقع على الخريطة </button>              
+                  </a>       
+                </div>
+              </div>
+              </div>       
+            <button class="btn btn-close" onclick="closeM3()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            </div>    
+          </div>
+
+          <div id="modal4" class="shadow" hidden>
+            <div class="main-modal">
+              <div class="modal-left">
+                <div class="modal-image-wrapper">
+                  <img src="./pic/sens2.jpg">
+                </div>
+               <div class="desc-wrapper">
+                  <div class="modal-info-header">
+                    <h1>وصف </h1>
+        <pre> يقع مطعم سينسز في اوتستراد المزة في دمشق،
+ويقدم مأكولات من المطبخ المتنوع على الفطور و الغداء و العشاء
+ بالإضافة إلى المشروبات الخفيفة. المطعم يوفر انترنت لاسلكي مجاني وأركيلة. 
+كما يستضيف المناسبات الاجتماعية كأعياد الميلاد و الحفلات الخاصة.
+    </pre>          </div> 
+                  <div class="desc-actions">
+                    <a target="_blank" href="https://maps.app.goo.gl/mEyfPRiybMFAn2Xc6">
+                      <button class="btn-book"> الموقع على الخريطة </button>              
+                    </a>       
+                  </div>
+                </div>
+                </div>       
+              <button class="btn btn-close" onclick="closeM4()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
+              </div>    
+            </div>
+            <div id="modal5" class="shadow" hidden>
+              <div class="main-modal">
+                <div class="modal-left">
+                  <div class="modal-image-wrapper">
+                    <img src="./pic/deunz2).jpg">
+                  </div>
+                 <div class="desc-wrapper">
+                    <div class="modal-info-header">
+                      <h1>وصف </h1>
+          <pre> يقع مطعم نادي ديونز في منطقة مزة فيلات شرقية في دمشق،
+يتميز بالاطلالة على المسبح
+و يقدم مأكولات من المطبخ الشرقي و الايطالي و المتنوع على الفطور و الغداء و العشاء بالإضافة إلى المشروبات الخفيفة.
+المطعم يفتح يوميا من الساعة العاشرة صباحا و لغاية الثانية بعد منتصف الليل و يوفر انترنت لاسلكي مجاني وأركيلة وخدمة مواقف سيارات و طاولات خارجية.
+كما يستضيف المناسبات الاجتماعية كأعياد الميلاد و الحفلات الخاصة.
+</pre>          </div> 
+        <div class="desc-actions">
+          <a target="_blank" href="https://maps.app.goo.gl/SfUw8G7Wm6g8Y6RF9">
+            <button class="btn-book"> الموقع على الخريطة </button>              
+          </a>       
+        </div>
+      </div>
+      </div>       
+    <button class="btn btn-close" onclick="closeM5()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    </div>    
+  </div>
+
+  <div id="modal6" class="shadow" hidden>
+    <div class="main-modal">
+      <div class="modal-left">
+        <div class="modal-image-wrapper">
+          <img src="./pic/nar2.jpg">
+        </div>
+       <div class="desc-wrapper">
+          <div class="modal-info-header">
+            <h1>وصف </h1>
+<pre>يقع مطعم قصر النرجس في منطقة القيمرية في مدينة دمشق القديمة،
+و يقدم مأكولات من المطبخ السوري و المتنوع على الفطور و الغداء و العشاء بالإضافة إلى المشروبات الخفيفة. 
+المطعم يفتح يوميا من الساعة التاسعة صباحا و لغاية الواحدة منتصف الليل
+</pre>          </div> 
+<div class="desc-actions">
+<a target="_blank" href="https://maps.app.goo.gl/8G5VFm4kGjUEuVNXA">
+  <button class="btn-book"> الموقع على الخريطة </button>              
+</a>       
+</div>
+</div>
+</div>       
+<button class="btn btn-close" onclick="closeM6()">
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</button>
+</div>    
+</div>
+<div id="modal8" class="shadow" hidden>
+  <div class="main-modal">
+    <div class="modal-left">
+      <div class="modal-image-wrapper">
+        <img src="./pic/soltan1 (2).jpg">
+      </div>
+     <div class="desc-wrapper">
+        <div class="modal-info-header">
+          <h1>وصف </h1>
+<pre>
+  يقع مطعم قصر السلطان في منطقة برزة بجانب قاسيون مول 
+  يقدم افخر المأكزلات الشرقية والغربية 
+  كما البوفيهات المفتوحة والفطور
+</pre>          </div> 
+<div class="desc-actions">
+<a target="_blank" href="https://maps.app.goo.gl/ZP86j7Mv3md6RXYs7">
+<button class="btn-book"> الموقع على الخريطة </button>              
+</a>       
+</div>
+</div>
+</div>       
+<button class="btn btn-close" onclick="closeM8()">
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</button>
+</div>    
+</div>
+
+<script> 
+let ini= document.querySelector('#modal-window');
+ini.classList.add("hideModal");
+</script>
+ <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script  src="./script.js"></script>
+
+  <script> 
+    var swiper = new Swiper('.blog-slider', {
+          spaceBetween: 30,
+          effect: 'fade',
+          loop: true,
+          autoplay:true,
+          mousewheel: {
+            invert: false,
+          },
+          // autoHeight: true,
+          pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+          }
+        });
+    
+      </script>
+     
+</body>
+</html>

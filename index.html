@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>kazderni- الصفحة الرئيسية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style2.css">
+
+
+<link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app" >
+  <header class="header" dir="ltr">
+    <div class="header__left">
+      <span>  <a href="#" class="logo"> kazderni </a>    </span>
+    </div>
+    <div class="header__right">
+  <a href="./about.html">About Us</a>       
+    </div>
+  </header> 
+  
+  <main class="main">
+    <article class="section" id="damascus" data-section>
+      <header class="section__header" style="background-image: url('pic/R.jpg');">
+        <h1 class="section__title">دمشق</h1>
+      </header>
+      
+      <div class="section__content">
+        <div style="width:200px;">        <a class="weatherwidget-io" href="https://forecast7.com/en/33d5136d28/damascus/" data-label_1="DAMASCUS" data-label_2="WEATHER" data-mode="Current" data-days="3" data-theme="retro-sky" >DAMASCUS WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script></div>
+
+        <ul class="boxgrid">
+          <li class="boxgrid__item" >
+                        
+          </li>
+          <li class="boxgrid__item boxgrid__item--wide">
+            <a href="./hotel.html" class="box box--image">
+
+  <img src="data:image/png;base64,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" title="فنادق" >            </a>
+         
+</li>
+          <li class="boxgrid__item boxgrid__item--push">
+            <a href="./resturent.html" class="box box--image">
+<img src="data:image/png;base64,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" title="مطاعم">            </a>
+          </li>          
+          <li class="boxgrid__item boxgrid__item--push">
+            <a href="./places.html" class="box box--image">
+<img src="data:image/png;base64,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" title="اماكن للزيارة">            </a>
+          </li>
+          <li class="boxgrid__item boxgrid__item--push">
+            <a href="./app.html" class="box box--image">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABlklEQVR4nO2ZMUvDQBiG36vipO7i5i7OOug/cMsdqJOboL+hUydBEFx6lwoSBSkIhU5OLm5aEanaDmIR03aQ1iWDxXJiCdLaQsVekl65B15IIMP3cG/CJQEMBsOIw5JLhIpHQkWNUJHAqj0FnSCUlwgT8idUlGHZm4jHY9AB0j58Z3Kg9jI0FpD+imSxlpqDtgLsO/yDUL6PdWcawwbpMTAysjvu39ILtF9jBH5hVsA1FRoMUyG3u0K5hpQbNSmvGxo+hbbepRzzj2P+uVYCfaO9gJVc0VqAqN5fRSLAFO6vohMQ/mpwFzS1oK8Aa+VYcwHu6CzwCis5r6EA1/gmpro+RnM1T/mHglAECl4TmaKDdH5C6fCBC7w0Jc5Lt0gXZ5UPHrjAZaWKkzu1+55QBG7qHk7zO4EPrlwgyJ4HKhBGzwMTCKvnygXC7rkygah6PrDA2adE9ukKzsMMhg3ST8CuVJGIuOf/Ejiqe9jNb2PYIVQ8d77iiTL2CoeIX4xDCyx7kTB+Txh/a/3ksw4mox7JYDCMEF/vOXcF8AearAAAAABJRU5ErkJggg==" title="تطبيقات">   </a> </li>
+              <li class="boxgrid__item boxgrid__item--push">
+                <a href="./shopp.html" class="box box--image">
+                  <img src="data:image/png;base64,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" title="مراكز تسوق">       </a>       </li>
+          </ul>
+      </div>
+    </article>
+
+
+  </main>
+  
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
